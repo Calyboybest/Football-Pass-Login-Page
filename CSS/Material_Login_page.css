@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    background-image: url(../Graphics/Pitch2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 500px;
+
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+
+
+
+.box {
+   margin-top: 100px;
+   height: 500px;
+   width: 320px;
+   background-color: rgba(0, 0, 0, 0.6);
+   border-radius: 5px;
+   border: 2px dashed darkgreen;
+}
+
+.box2 {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    background-color: rgba(0, 0, 0, 0.6);
+ }
+
+.logo {
+    background-image: url(../Graphics/football.png);
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: contain;
+    border-radius: 200px;
+    box-shadow: 2px 2px 5px rgb(73, 73, 73), -3px -3px 10px rgba(116, 255, 151, .6);
+    margin: -35px auto;
+
+}
+
+
+h2 {
+    color: rgb(255, 255, 255);
+   font-size: 1.7em;
+   margin-top: 50px;
+   font-family: 'ubuntubold';
+   padding-left: 20px;
+   text-align: center;
+   text-shadow: 1px 1px 5px rgb(88, 81, 81), -1px -1px 5px rgb(81, 81, 81);
+}
+
+
+label {
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 0;
+    font-family: 'ubuntubold';
+    color:#fff;
+    background-color: transparent;
+}
+
+input {
+    width: 240px;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 252, 252);
+    padding: 0 15px 0;
+    font-family: 'ubuntulight';
+    color: #fff;
+
+}
+
+input[placeholder*="Enter"]{
+    color:#000;
+}
+
+.button{
+    background-color: rgb(72, 177, 2);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 220px;
+    height: 50px;
+    margin-left: 40px;
+    font-family: 'ubuntubold';
+
+    
+}
+
+.button:hover {
+    background-color: #000;
+    transition: all .4s ease-in;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+a[href="1"]{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'ubunturegular';
+    padding: 0 5px 0 5px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+a[href="1"]:hover {
+    color: rgb(0, 0, 0);
+    transition: all .4s ease-in-out;
+}
+
+
